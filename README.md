@@ -9,6 +9,23 @@ This Django application demonstrates how to integrate WorkOS Single Sign-On (SSO
 - ✅ Displays organization ID
 - ✅ Displays organization name (bonus feature - requires additional API call)
 
+## Demo Video
+
+A screen recording demonstrating the complete SSO authentication flow is available:
+
+**📹 [WorkOSDemo.mp4](python-django-sso-example/sso/static/images/WorkOSDemo.mp4)**
+
+The video demonstrates:
+- Login page with "Sign in with Test Provider" button
+- Authentication flow using Test Provider with `@example.com` email address
+- Successful redirect and display of:
+  - **First Name**
+  - **Last Name**
+  - **Organization ID**
+  - **Organization Name** (bonus feature)
+
+**Note:** When testing yourself, remember that the email address **must end with `@example.com`** for the Test Provider to work.
+
 ## Prerequisites
 
 - **Python 3.6 or higher** (check with `python3 --version`)
